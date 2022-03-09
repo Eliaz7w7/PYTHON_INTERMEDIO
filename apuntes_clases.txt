@@ -69,3 +69,10 @@ super_dic={
         "flotantes":[1.2,2.5,3.5],
     }
 
+
+//LIST COMPREHENSION
+List comprehension son "listas resumidas"
+ejm:
+
+abc = [i**2 for i in range(1,11) if i % 2 == 0]
+Lo que estamos diciendo es que solo se guardaran los numeros pares en la lista abc
