@@ -1,0 +1,51 @@
+Para este entonces se debe aprender Python basico y git y github con Freddy
+
+//QUE ES UN ENTORNO VIRTUAL
+Un entorno virtual es como "un cuarto para cada proyecto" 
+Ejm: 
+	|||||||||||||||||		|||||||||||||||||				|		|		|		|
+	|PROYECTO A	|		|PROYECTO B	|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|||||||||||||||||		|||||||||||||||||	
+
+En cada proyecto se puede modificar un modulo (como random) 
+Si bien lo modificas en A puedes y no puedes modificarlo en B
+
+
+//CREAR ENTORNO VIRTUAL DE PYTHON
+Creacion de entorno virtual
+py -m venv "nombre"
+
+Darle uso (Windows)
+.\nombre\Scripts\activate
+
+Darle uso (Linux)
+source nombre/bin/activate
+
+Darle uso en derivado de linux (Git)
+source nombre/Scripts/activate
+
+
+//MANEJADOR DE DEPENDENCIAS * PIP *
+Un modulo es codigo hecho por otras personas para que nosotros no lo volvamos a hacer un ejm es Random.
+
+Para ver los modulos en nuestro entorno 
+pip freeze
+
+Para instalar un modulo
+pip install <nombre>
+
+Para guardarlos en un txt
+pip freeze > nombre.txt
+
+Para instalar los modulos desde un txt
+pip install -r nombre.txt
