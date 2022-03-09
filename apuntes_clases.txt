@@ -3,7 +3,7 @@ Para este entonces se debe aprender Python basico y git y github con Freddy
 //QUE ES UN ENTORNO VIRTUAL
 Un entorno virtual es como "un cuarto para cada proyecto" 
 Ejm: 
-	|||||||||||||||||		|||||||||||||||||				|		|		|		|
+	|||||||||||||||||		|||||||||||||||||
 	|PROYECTO A	|		|PROYECTO B	|
 	|		|		|		|
 	|		|		|		|
@@ -20,6 +20,7 @@ Ejm:
 En cada proyecto se puede modificar un modulo (como random) 
 Si bien lo modificas en A puedes y no puedes modificarlo en B
 
+VER IMAGEN 1
 
 //CREAR ENTORNO VIRTUAL DE PYTHON
 Creacion de entorno virtual
@@ -49,3 +50,22 @@ pip freeze > nombre.txt
 
 Para instalar los modulos desde un txt
 pip install -r nombre.txt
+
+
+//LISTAS Y DICCIONARIOS ANIDADOS
+Es cuando hay uno o mas diccionarios dentro de una lista o viceversa
+ejm:
+
+super_list= [
+    {"Nombre":"Elias", "Apellido":"Auque"},
+    {"Nombre":"Cristian", "Apellido":"Domingez"},
+    {"Nombre":"Jazmin", "Apellido":"Aguilar"},
+    {"Nombre":"Harry", "Apellido":"Potter"}
+    ]
+
+super_dic={
+        "num_nat":[1,2,3,4,5],
+        "letras":["a","b","c","d"],
+        "flotantes":[1.2,2.5,3.5],
+    }
+
