@@ -87,3 +87,17 @@ abc= {i:i**2 for i in range(1,11)}
 Nota:
 para añadir una llave y un valor al diccionario en un for es abc[i]=i**2
 
+
+////LAMBDA
+Es una funcion anonima
+es como una funcion pero en una sola linea de codigo
+
+
+#En vez de usar
+	def nombre():
+    	     pass
+
+
+# Se puede usar
+	f = lambda var: 1+1 #Funcion
+Ver gif 1
