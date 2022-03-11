@@ -1,3 +1,5 @@
 envir/
 *.jpg
 *.gif
+*.txt
+!apuntes_clases.txt

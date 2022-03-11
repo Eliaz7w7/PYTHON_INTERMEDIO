@@ -101,3 +101,44 @@ es como una funcion pero en una sola linea de codigo
 # Se puede usar
 	f = lambda var: 1+1 #Funcion
 Ver gif 1
+
+//Funciones de orden superior
+
+Son funciones que toma como parametro otras funciones
+ejm:
+
+
+        def run(fun):
+            fun()
+
+        def saludo():
+            print("hola")
+
+        def despedida():
+            print("Adios")
+
+
+En estas existen 3 importantes
+
+        FILTER
+
+Se usa para ESCOGER datos, cuando se usa un lambda va un iterable (elemento que se puede recorrer)
+
+     abc=list(filter(lambda x: x%2==0, range(1,11))
+
+        MAP
+Te envia todas las variables no usar un "if" se usa para potencia
+    abc=list(filter(lambda x: x%2==0, range(1,11))
+
+        REDUCE
+Agarra dos variables de una lista y los suma ambos
+el resultado se suma con la 3ra variable de la lista
+No es necesario usar list sino agarra error
+ejm:
+
+        abc=reduce( lambda x,i: x+i, range(1,101))
+
+ESTAS 3 FUNCIONES SE DEBE DOMINAR
+
+
+VER LINK 1
