@@ -142,3 +142,28 @@ ESTAS 3 FUNCIONES SE DEBE DOMINAR
 
 
 VER LINK 1
+
+///PROYECTO FILTRANDO DATOS
+
+CON FOR:
+		VER MAYORES DE 50
+	abc=[]	-> Creamos una lista
+	for x in DATA: -> Se crea un ciclo que recorra cada diccionario
+	   if x["age"]>=50: -> Escogemos a aquellos que tengan mas de 50
+	      abc.append(x["name"]) -> agregamos el nombre a la lista abc 
+	print(abc)
+
+CON FILTER Y MAP
+	
+	abc=list(filter(lambda x: x["age"]>=50,DATA])) -> Filtramos a los que tienen mas de 50
+	abc=list(map(lambda x: x["name"],abc)) -> Escogemos el nombre
+	print(abc)
+
+
+CON LIST COMPREHENSION
+
+	abc=[x["name"] for x in DATA if x["age"]>=50] -> Escogemos el nombre de los que tienen mas de 50
+	print(abc)
+
+	ESTE ES EL MAS OPTIMO YA QUE USA MENOS LINEAS DE CODIGO
+
