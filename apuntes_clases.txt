@@ -166,4 +166,17 @@ CON LIST COMPREHENSION
 	print(abc)
 
 	ESTE ES EL MAS OPTIMO YA QUE USA MENOS LINEAS DE CODIGO
+//ERRORES EN EL CODIGO
+Se puede dividir en dos partes
+
+El que no avisa
+	SISTAXYS ERROR: Es un error de logica (el codigo esta bien pero no hace 			lo que tu quieres)
+
+Los que avisan
+	EXCEPTION: Existen varios y ya ha salido antes ejm: KeyboardInterrupt			   (cuando precionas CTR + C ) lo que hace detener la consola
+		   keyerror una llave inexistente, indexerror valor en lista 
+		   inexistente filenotfounderror, zerodivisionerror,
+		   ImportError cuando en un modulo hay un error
+		   
+		   Para solucionarlo se debe leer el traceback de fin a inicio.
 
