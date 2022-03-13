@@ -179,4 +179,6 @@ Los que avisan
 		   ImportError cuando en un modulo hay un error
 		   
 		   Para solucionarlo se debe leer el traceback de fin a inicio.
+//DEBUGGING
 
+Para solucionar el sintaxys error se usa el debugging en visual (el triangulo con escarabajo) ejecutar y selecionar file)
