@@ -205,5 +205,12 @@ RAISE ELEVA EL ERROR Y SE DETIENE EN ESA PARTE EL CODIGO ANTERIOR ES EJECUTADO
 		  print(a)
  	     except typeerror
 	     	print("Ingrese un numero")
-
+//ASSERT
+Assert es como un try - except en uno 
+	a=input("Ingrese numero: ")
+	assert a.isnumeric(), "No es un numero"  -> assert <condicion>, <msj>
+	abc=[x for x in range(1,int(a)+1) if a%x==0]
+	print(abc)
+Para mi es el mas optimo LA CONDICION ES "AFIRMO QUE ESTO ES VERDADERO" sino 
+imprimir mensaje
 
