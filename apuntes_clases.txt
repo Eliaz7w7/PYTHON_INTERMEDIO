@@ -180,5 +180,30 @@ Los que avisan
 		   
 		   Para solucionarlo se debe leer el traceback de fin a inicio.
 //DEBUGGING
+Para solucionar el sintaxys error se usa el debugging en visual (el triangulo con escarabajo
 
-Para solucionar el sintaxys error se usa el debugging en visual (el triangulo con escarabajo) ejecutar y selecionar file)
+
+//EXCEPCIONES
+Se haco con un try - except
+
+ejm:
+	try
+	   a=input("Ingrese nombre: ")
+	   print(a)
+	except typeerror:
+	   print("no ingrese numeros")
+
+
+TAMBIEN SE PUEDE USAR RAISE
+RAISE ELEVA EL ERROR Y SE DETIENE EN ESA PARTE EL CODIGO ANTERIOR ES EJECUTADO
+	
+
+	     try
+	  	  a=input("Ingrese nombre: ")
+	          if a.isnumeric():
+	    	    raise typeerror
+		  print(a)
+ 	     except typeerror
+	     	print("Ingrese un numero")
+
+
