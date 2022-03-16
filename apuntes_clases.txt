@@ -214,3 +214,12 @@ Assert es como un try - except en uno
 Para mi es el mas optimo LA CONDICION ES "AFIRMO QUE ESTO ES VERDADERO" sino 
 imprimir mensaje
 
+//MANEJO DE ARCHIVOS
+Hay 3 opciones:
+     a = agregar texto al final
+     w = Sobre-escribir en el texto
+     r = leer archivo
+
+Es una simple linea de codigo
+  	with open("./ruta/del/archivo.txt", "w", encoding="utf-8") as f:
+
